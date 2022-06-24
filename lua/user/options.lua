@@ -1,5 +1,6 @@
 local options = {
  	showmode = false, 		-- prevents from showing insert on below 
+	number = true,
 	relativenumber = true, 		-- Display line numbers
  	clipboard = "unnamedplus", 	-- shared clipboard for nvim and other app
 	mouse = "a", 			-- Enable mouse for scrolling
