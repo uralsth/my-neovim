@@ -42,3 +42,4 @@ luac.out
 # Plugin Folders
 autoload/
 plugged/
+plugin/packer_compiled.lua
