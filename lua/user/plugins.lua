@@ -51,10 +51,8 @@ return packer.startup(function(use)
   }
 
   -- Colorschemes
-  use "folke/tokyonight.nvim"
-  use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
   use "Mofiqul/dracula.nvim"
+  use 'navarasu/onedark.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
