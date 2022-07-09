@@ -11,7 +11,7 @@ local options = {
 	tabstop = 2,               			-- insert 2 spaces for tab
   scrolloff = 8,                  -- determines minimal screen number of line to ke keep above and below
   showtabline = 0,                -- always show tabs
-
+  termguicolors = true,                    -- set term gui colors (most terminals support this)
 
 }
 
