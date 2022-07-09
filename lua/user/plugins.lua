@@ -71,6 +71,9 @@ return packer.startup(function(use)
     requires = "hrsh7th/nvim-cmp",
   }
 
+  -- Colorizer
+  use "norcalli/nvim-colorizer.lua"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
